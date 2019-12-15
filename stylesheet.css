@@ -1,0 +1,74 @@
+html {
+  height: 100%;
+}
+body {
+    height: 100%;
+}
+#nav a{
+	background-color: red;
+	color:white;
+	margin-left:1rem;
+	margin-right:1rem;
+}
+#nav span{
+	color:white;
+}
+#nav{
+	background-color: red !important;
+	text-align: center;
+	position:fixed;
+	width: 100%;
+	z-index: 1;
+}
+#CountdownClock{
+	background-color: green;
+	width:100%;
+	margin-left: auto;
+	margin-right:auto;
+	height:10rem;
+ 	text-align: center;
+}
+#pageContent{
+	min-height: 50%;
+	min-height: 50vh;
+	display:flex;
+	align-items:center;
+	justify-content: center;
+}
+#details{
+	background-color: blue;
+	color:white;
+}
+#speakers{
+	background-color: red;
+	margin-bottom:5rem;
+}
+#SpeakersImage{
+	background-color: green;
+}
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: blue;
+  line-height: 40px;
+  color: white;
+  text-align: center;
+  height: 40px;
+}
+#speakers div{
+	margin:10px;
+}
+#speakers span{
+	color:black;
+}
+#column1{
+	background-color: white;
+}
+#column2{
+	background-color: white;
+}
+#row1{
+	width:70%;
+}
