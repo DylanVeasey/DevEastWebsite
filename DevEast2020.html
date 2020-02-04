@@ -10,108 +10,139 @@
 		<link rel="stylesheet" href="stylesheet.css">
 	</head>
 	<body>
+		<!-- This is the navbar for the website. It turns into a smaller, expandable navbar when the screen size is smaller to make the webstie mobile firendly.-->
 		<nav class="navbar navbar-expand-lg navbar-light bg-light" id="nav" >
-  				<a class="navbar-brand" href="#">Title/Logo</a>
- 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+  			<a class="navbar-brand" href="#"><img src="https://via.placeholder.com/40"></a>
+ 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     				<span class="navbar-toggler-icon"></span>
-  				</button>
-  				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+  			</button>
+  			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     				<div class="navbar-nav">
       					<a class="nav-item nav-link" href="HomePage.html">Home page</a>
       					<a class="nav-item nav-link" href="DevEast2020CallForPapers.html">Call for papers</a>
       					<a class="nav-item nav-link" href="DevEast2020CodeOfConduct.html">Code of conduct</a>
       					<a class="nav-item nav-link" href="DevEast2020SpeakersPolicy.html">Speakers Policy</a>
     				</div>
-  				</div>
-			</nav>
+  			</div>
+		</nav>
 
-
-	<div id="pageContent">
-		<div class="row" id="row1">
-			<div id="CountdownClock">
-				<p> Countdown clock</p>
-			</div>
-		</div>
-	</div>
-
-
-
-		<div id="speakers">
-				<div class="row" >
-					<div id="column1" class="col-sm-5">
-						<h3 id="left">Speakers</h3>
-							<div class="row">
-								<img id="SpeakersImage" scr="..." alt="Image1">
-								<span>Details</span>
-							</div>
-								<div class="row">
-								<img id="SpeakersImage" scr="..." alt="Image2">
-								<span>Details</span>
-							</div>
-							<div class="row">
-								<img id="SpeakersImage" scr="..." alt="Image3">
-								<span>Details</span>
-							</div>
-							<div class="row">
-								<img id="SpeakersImage" scr="..." alt="Image4">
-								<span>Details</span>
-							</div>
+	<!-- This is the main container for all of the content on the web page-->
+	<div class="container" id="MainDiv">
+		<!--A row which contains both the speakers and the keynote speakers-->
+		<div class="row" >
+			<!-- This is the first column, for the speakers-->
+			<div id="column" class="col-md"> 
+				<h3 id="left">Speakers</h3>
+				<!-- This is a row inside a row, so the images and the text can be split into different columns-->
+				<div class="row">
+					<div class="col">
+						<img src="https://via.placeholder.com/125" id="SpeakersImage" alt="Speaker 1">
 					</div>
-
-<div class="col-sm-1"></div>
-
-					<div id="column2" class="col-sm-5">
-						<h3 id="right"> Keynote Speaker</h3>
-
-						<div class="row">
-							<span>Details</span>
-							<img id="SpeakersImage" scr="..." alt="Image1">
-						</div>
-					</div>
-
-<div class="col-sm-7"></div>
-
-					<div id="column2" class="col-sm-2">
-							<img id="SpeakersImage" scr="..." alt="Image1">
-							<p> Easy ticket booking </p>
-							<p> Info </p>
-					</div>
-					<div id="column2" class="col-sm-2">
-							<img id="SpeakersImage" scr="..." alt="Image1">
-							<p> Easy ticket booking </p>
-							<p> Info </p>
-					</div>
-
-<div class="col-sm-8"></div>
-
-					<div id="column2" class="col-sm-2">
-							<p> Ticket information</p>
-							<p> Info </p>
+					<div class="col">
+						<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce metus arcu, tincidunt at tincidunt et, blandit sed ligula. Praesent at sem lectus. Vestibulum facilisis dignissim libero eu aliquet.</span >
 					</div>
 				</div>
-		</div>
+
+				<div class="row">
+					<div class="col">
+						<img src="https://via.placeholder.com/125" id="SpeakersImage" alt="Speaker 2">
+					</div>
+					<div class="col">
+						<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce metus arcu, tincidunt at tincidunt et, blandit sed ligula. Praesent at sem lectus. Vestibulum facilisis dignissim libero eu aliquet.</span>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col">
+						<img src="https://via.placeholder.com/125" id="SpeakersImage" alt="Speaker 3">
+					</div>
+					<div class="col">
+						<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce metus arcu, tincidunt at tincidunt et, blandit sed ligula. Praesent at sem lectus. Vestibulum facilisis dignissim libero eu aliquet.</span>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col">
+						<img src="https://via.placeholder.com/125" id="SpeakersImage" alt="Speaker 4">
+					</div>
+					<div class="col">
+						<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce metus arcu, tincidunt at tincidunt et, blandit sed ligula. Praesent at sem lectus. Vestibulum facilisis dignissim libero eu aliquet.</span>
+					</div>
+				</div>	
+                    </div>
+        
+
+			<!-- This is the second column, for the keynote speakers-->
+			<div id="column" class="col-md">
+				<h3 id="right"> Keynote Speakers</h3>
+					<div class="row">
+                           		<img src="https://via.placeholder.com/150" id="SpeakersImage" alt="Keynote speaker 1">
+                            		Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            		Fusce metus arcu, tincidunt at tincidunt et, blandit sed ligula.
+                            		Praesent at sem lectus. 
+                            		Vestibulum facilisis dignissim libero eu aliquet.
+                           		Nunc dapibus sagittis placerat.
+                           		Donec mollis, risus vel condimentum placerat, lacus tellus ultricies est, at mattis justo sem ac mi.
+                       			</div>
+                        		<div class="row">
+                            		<img src="https://via.placeholder.com/150" id="SpeakersImage" alt="Keynote speaker 2">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            		Fusce metus arcu, tincidunt at tincidunt et, blandit sed ligula. 
+                            		Praesent at sem lectus. 
+                            		Vestibulum facilisis dignissim libero eu aliquet. 
+                            		Nunc dapibus sagittis placerat. 
+                            		Donec mollis, risus vel condimentum placerat, lacus tellus ultricies est, at mattis justo sem ac mi.
+					</div>
+                       	 		<div class="row">
+                            		<img src="https://via.placeholder.com/150" id="SpeakersImage" alt="Keynote speaker 3">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            		Fusce metus arcu, tincidunt at tincidunt et, blandit sed ligula. 
+                            		Praesent at sem lectus. Vestibulum facilisis dignissim libero eu aliquet. 
+                            		Nunc dapibus sagittis placerat. 
+                            		Donec mollis, risus vel condimentum placerat, lacus tellus ultricies est, at mattis justo sem ac mi.
+					</div>
+                    		</div>
+                   	</div>
+                
+			<!-- This is another row for the ticket information-->
+                	<div class="row justify-content-center" >
+				<div id="column" class="col-sm-2">
+					<img src="https://via.placeholder.com/150" id="SpeakersImage" alt="Ticket booking">
+					<p> Easy ticket booking </p>
+					<p> Info </p>
+				</div>
+				<div id="column" class="col-sm-2">
+					<img src="https://via.placeholder.com/150" id="SpeakersImage" alt="Ticket booking">
+					<p> Easy ticket booking </p>
+					<p> Info </p>
+                   		</div>
+                	</div>
+			<br>
+                	<!--This is another row for more ticket information-->
+                	<div class="row justify-content-center">
+				<div id="column" class="col-sm-2">
+					<p> Ticket information</p>
+					<p> Info </p>
+                  		</div>
+                	</div>
+            	</div>
+         </div>
 
 
-
+		<!-- This is the footer-->
 		<footer id="footer">
-			<div class="container">
+			<div>
 				<span> Contact Info </span>
-				<span> Sponsors</span>
-				<span> Sponsors </span>
-				<span> Sponsors </span>
+				<span><img src="https://via.placeholder.com/25"></span>
+				<span><img src="https://via.placeholder.com/25"></span>
+				<span><img src="https://via.placeholder.com/25"></span>
 				<span> Links</span>
-
 			</div>
 		</footer>
 
 
-
-
-
-
-
-		<!--bootstrap stuff-->
-		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<!--bootstrap stuff-->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 	</body>
